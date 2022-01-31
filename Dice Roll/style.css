@@ -1,0 +1,73 @@
+
+
+body{
+    font-family: 'Bree Serif', serif;
+}
+
+.centralizar-conteudo{
+    text-align: center;
+}
+
+/* navbar edições */
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.nav-link{
+    margin-right: 3rem;
+    transition: transform 250ms ease;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+}
+
+.active{
+    font-size: 1.8rem;
+}
+
+/* CONTEUDO DO SITE */
+#conteudo{
+    margin-top: 5rem;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.lados{
+    font-size: 4rem;
+}
+
+.dado{
+    position: absolute;
+}
+
+img{
+    width: 300px;
+    z-index: -1;
+    margin-left: 25rem;
+}
+
+.valor-dado{
+    z-index: 1;
+    font-size: 5rem;
+    margin-left: 33rem;
+    margin-top: -220px;
+}
+
+/* BOTAO */
+.btn{
+    width: 25rem;
+    margin-top: 25rem;
+    transition: transform 250ms ease;
+    margin-bottom: 5rem;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+
